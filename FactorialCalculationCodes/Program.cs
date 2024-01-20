@@ -6,31 +6,31 @@ namespace FactorialCalculationCodes
     {
         static void Main(string[] args)
         {
-            /* Using the "for" 
-
-            Console.Write("Bir sayı girin: ");
-            int sayi = int.Parse(Console.ReadLine());
-            int faktoriyel = 1;
-            for (int i = sayi; i > 0; i--)
+            // Using the "for"
+            /*
+            Console.Write("Enter a number: ");
+            int number = int.Parse(Console.ReadLine());
+            int factorial = 1;
+            for (int i = number; i > 0; i--)
             {
-                faktoriyel *= i;
+                factorial *= i;
             }
-            Console.Write("Sonuç: {0}", faktoriyel);
+            Console.Write("Result: {0}", factorial);
 
             */
 
-            /* Using the "while" */
+            // Using the "while" 
 
-            Console.Write("Bir sayı girin: ");
-            int sayi = int.Parse(Console.ReadLine());
-            int faktoriyel = 1;
-            while (sayi > 0)
+            Console.Write("Enter a number: ");
+            int number = int.Parse(Console.ReadLine());
+            int factorial = 1;
+            while (number > 0)
             {
-                faktoriyel = faktoriyel * sayi;
+                factorial = factorial * number;
 
-                sayi--;
+                number--;
             }
-            Console.Write("Sonuç: {0}", faktoriyel);
+            Console.Write("Result: {0}", factorial);
 
             Console.ReadKey();
         }
